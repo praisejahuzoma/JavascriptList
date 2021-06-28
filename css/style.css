@@ -1,0 +1,133 @@
+/* @import "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"; */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(45deg,#e14e42, #22046b);
+    color: white;
+    position: relative;
+}
+.row{
+    width: 80%;
+    min-height: 85vh;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.col{
+    margin: 20px 0;
+    flex-basis: 50%;
+    min-width: 300px;
+    height: 100%;
+    position:relative;
+}
+.list-box{
+    max-width: 400px;
+    margin-top: 200px;
+    margin-left: 100px;
+}
+.list-box h3{
+    font-weight: 100;
+    line-height: 35px;
+    color: #e7c82f;
+
+}
+.list-box h4{
+  font-size: 20px;
+  font-weight: 100;
+  letter-spacing: 1px;
+ 
+}
+.img-box{
+    max-width: 400px;
+    position:relative;
+    margin: auto;
+}
+.img-box img{
+  width: 500px ;
+  height: 500px;
+  border: 10px solid rgba(255,255,255,0.2);
+  box-sizing: border-box;
+  margin-top: 100px;
+}
+.copyRight{
+    margin-left: 80%;
+    font-size: 13px;
+    margin-top: 44px;
+
+}
+.list-box ul li{
+    list-style: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0 30px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    position: relative;
+    margin-left: 200px;
+    margin-top: -10px;
+}
+.list-box .active{
+    color:#e7c82f;
+}
+.list-box ul li::after{
+    content: '';
+    width: 30px;
+    height: 2px;
+    background: transparent;
+    position: absolute;
+    top: 8px;
+    left: -5px;
+}
+.list-box .active::after{
+    background:#e7c82f;
+}
+.small-icon1{
+    width: 15px;
+    position: absolute;
+    right: 200px;
+    top: -10px;
+    opacity: 0.3;
+}
+.small-icon2{
+    width: 18px;
+    position: absolute;
+    left: 990px;
+    opacity: 0.3;
+    margin-top: -600px;
+}
+.small-icon3{
+    width: 14px;
+    position:absolute;
+    right: 50px;
+    top: 200px;
+    opacity: 0.5;
+    transform: rotate(45deg);
+}
+.small-icon4{
+    width: 18px;
+    position: absolute;
+    left: 699px;
+    top: 570px;
+    opacity: 0.3;
+    transform: rotate(45deg);
+}
+.small-icon5 {
+    width: 15px;
+    position:absolute;
+    left: 20px;
+    top: 400px;
+    opacity: 0.5;
+}
+.small-icon6{
+    width: 12px;
+    position: absolute;
+    left: 990px;
+    opacity: 0.3;
+    margin-top: -200px;
+}

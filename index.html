@@ -3,10 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-    
+    <div class="container">
+       <div class="row">
+           <div class="col">
+              <div class="img-box">
+                <img src="image/addList.svg">
+              </div>
+
+              <img src="image/circle.png" class="small-icon1">
+              <img src="image/circle2.png" class="small-icon2">
+              <img src="image/Rectangle .png" class="small-icon3">
+              <img src="image/circle.png" class="small-icon4">
+              <img src="image/circle2.png" class="small-icon5">
+              <img src="image/Rectangle .png" class="small-icon6">
+
+           </div>
+           <div class="col">
+             <div class="list-box">
+                <h3>List of Names and Surnames</h3>
+                <img src="image/Rectangle .png" id="text">
+
+                <ul>
+                    <li class="btn">01</li>
+                    <li class="btn active">02</li>
+                    <li class="btn">03</li>
+                    <li class="btn">04</li>
+                    <li class="btn">05</li>
+                </ul>
+
+             </div>
+           </div>
+       </div>
+       <div class="copyRight">
+          <p>Copyright &copy; <script>document.write(new Date().getFullYear())</script> Praisejah Uzoma</p>
+       </div>
+    </div>
+
+    <script>
+        var btn = document.getElementsByClassName("btn");
+        var text = document.getElementById("text");
+
+        var texts = new Array(
+            "<p>jnjb n hjn hjbj</p>",
+            "image/circle2.png",
+            "image/circle2.png",
+            "image/circle.png",
+            "image/circle2.png"
+        );
+        for(let i=0; i<btn.length; i++){
+            btn[i].onclick = function()
+            {
+                text.src = texts[i];
+                let current = document.getElementsByClassName("active");
+                current[0].className = current[0].className.replace("active", "");
+                this.className += " active";
+            };
+        }
+    </script>
 </body>
 </html>
