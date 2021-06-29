@@ -28,7 +28,7 @@
 }
 .list-box{
     max-width: 400px;
-    margin-top: 300px;
+    margin-top: 160px;
     margin-left: 100px;
 }
 .list-box h3{
@@ -52,12 +52,12 @@
   width: 500px ;
   height: 500px;
   box-sizing: border-box;
-  margin-top: 100px;
+  margin-top: 90px;
 }
 .copyRight{
     margin-left: 80%;
     font-size: 13px;
-    margin-top: 44px;
+    margin-top: 10px;
     color: #504617;
 
 }
@@ -144,7 +144,7 @@ ol{
 }
 .border{
     border-left: solid 2px rgb(207, 200, 200);
-    height: 230px;
+    height: 270px;
     margin-left: 670px;
-    margin-top: -320px;
+    margin-top: -330px;
 }
