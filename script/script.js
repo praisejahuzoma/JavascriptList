@@ -4,7 +4,7 @@ yearText.innerHTML = year;
       
 let names = [
 	{firstName: "Sophia", lastName: "Liam"},
-	{firstName: "Riley", lastName: "Imoh"},
+	{firstName: "Benjamin", lastName: "Riley"},
 	{firstName: "Olive", lastName: "Uzoma"},
 	{firstName: "Emma", lastName: "Aiden"},
 	{firstName: "Kiara", lastName: "Nova"},
